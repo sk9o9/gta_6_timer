@@ -3,10 +3,23 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="app">
-      <h1 className="title">GTA VI</h1>
-      <p className="subtitle">Vice City — November 19, 2026</p>
-      <CountdownTimer />
+    <div className="hero">
+      <nav className="navbar">
+        <span className="brand">GTA VI</span>
+        <span className="tag">VICE CITY</span>
+      </nav>
+
+      <div className="hero-content">
+        <p className="eyebrow">Coming</p>
+        <h1 className="title">
+          NOVEMBER <span className="accent">19</span>, 2026
+        </h1>
+        <p className="platforms">PlayStation 5 · Xbox Series X|S</p>
+
+        <CountdownTimer />
+      </div>
+
+      <div className="scroll-hint">Vice City, USA.</div>
     </div>
   );
 }
